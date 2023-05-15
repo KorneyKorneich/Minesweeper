@@ -1,0 +1,23 @@
+.minesweeper_window{
+    display: flex;
+    /* flex-direction: column; */
+    width: 50%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.header{}
+
+.field{
+    width: 200px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.cell{
+    width: 20px;
+    height: 20px;
+    background-color: beige;
+
+}

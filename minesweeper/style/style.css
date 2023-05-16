@@ -9,15 +9,21 @@
 .header{}
 
 .field{
-    width: 200px;
-
+    width: 340px;
     display: flex;
     flex-wrap: wrap;
 
 }
 .cell{
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     background-color: beige;
-
+    margin: 2px;
+    text-align: center;
+}
+.cell:hover{
+    background-color: bisque;
+}
+.hidden{
+    
 }
